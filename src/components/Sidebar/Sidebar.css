@@ -1,0 +1,39 @@
+.sidebar-part{
+    display: flex;
+    background-color: #030303da;
+}
+
+.sidebar{
+    height: 100vh;
+    background-color: #030303da;
+    width: 95px;
+    position: fixed;
+}
+
+.container-fluid{
+ padding-left: 0px!important;
+ padding-right: 0px!important;
+ overflow: hidden;
+}
+
+.sidebar-icon{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    cursor: pointer;
+}
+
+.sidebar-icon p svg{
+    background-color: #19092c;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+.expand-sidebar{
+    height: 100vh;
+    background-color: #030303da;
+    width: 230px;
+    position: fixed;
+}
