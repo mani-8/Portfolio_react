@@ -6,7 +6,7 @@ import Home from '../Home/Home.js'
 
 const Sidebar = ()=> {
 
-  const [expandSidebar, setExpandSidebar] = useState(true);
+  const [expandSidebar, setExpandSidebar] = useState(false);
 
   const handleExpandClick = ()=>{
     setExpandSidebar(!expandSidebar);
@@ -28,7 +28,7 @@ const Sidebar = ()=> {
       <div className="container">
        <Home />
       </div>
-
+      
     </div>
     
     )

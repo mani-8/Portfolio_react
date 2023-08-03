@@ -15,7 +15,7 @@
 
 .buttons{
     display: flex;
-
+    padding-left: 10px;
 }
 
 .button-for-hire{
@@ -55,4 +55,13 @@
     width: 250px;
     color: black;
     transition-duration: 1s;
+}
+
+.button-for-resume a{
+   text-decoration: none;
+   color: black
+}
+
+.container{
+    padding-left: 80px;
 }

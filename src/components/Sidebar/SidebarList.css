@@ -35,3 +35,12 @@
 .collapse-navbar-items ul li svg{
     margin-left: 10px;
 }
+
+.navbar-items ul li{
+    text-decoration: none;
+}
+
+.navbar-items :active{
+    border-left: 2px solid yellow;
+    color: yellow;
+}
